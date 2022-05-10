@@ -1,0 +1,203 @@
+@font-face {
+    font-family: 'Minecraftia';
+    src: url('../fonts/Minecraftia-Regular.woff2') format('woff2'),
+        url('../fonts/Minecraftia-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    color: #fff;
+    font-weight: 900;
+    background: url(../img/back.jpg);
+    cursor: url(../cursor.cur), auto;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.top,
+h2,
+.h1 {
+    text-align: center;
+}
+
+/* .prepearing, */
+.tea_time {
+    text-align: center;
+}
+
+.oldselect {
+    font-size: 16px;
+    color: #fff;
+    background-color: limegreen;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px 0 10px;
+    margin-right: 100px;
+    font-family: Minecraftia;
+}
+
+h1 {
+    color: limegreen;
+    font-family: Minecraftia;
+    display: inline-block;
+}
+
+h2 {
+    color: limegreen;
+    font-size: 25px;
+    font-family: Minecraftia;
+}
+
+h3 {
+    color: limegreen;
+    font-size: 21px;
+    font-family: Minecraftia;    
+}
+
+.prepearing img,
+.tea_time img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.omnomnom {
+    object-position: right top;
+}
+
+.ready {
+    color: limegreen;
+    font-size: 20px;
+}
+
+.leaf {
+    display: inline-block;
+} 
+
+.pay {
+    text-align: center;
+}
+
+.pay p,
+.pay form {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.payc {
+    font-size: 25px;
+    color: limegreen;
+    font-family: Minecraftia;
+    transition: all 0.5s ease;
+}
+
+.payc:hover {
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.psub {
+    display: inline-block;
+    border: 1px solid limegreen;
+    color: limegreen;
+    background-color: transparent;
+    font-size: 20px;
+    border-radius: 25px;
+    padding: 15px 20px 5px;
+    font-family: Minecraftia;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    text-align: center;
+}
+
+.psub:hover {
+    background-color: limegreen;
+    color: #fff;
+}
+
+.inf p {
+    font-size: 20px;
+    font-family: Minecraftia;
+}
+
+.inf p:nth-child(3) {
+    font-size: 18px;
+    color: #ccc;
+}
+
+.nenough {
+    font-size: 18px;
+    font-family: Minecraftia;
+    color: tomato;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+/* .g1 {
+    height: 140px;
+    width: 300px;
+    display: inline-block;
+    border: none;
+    background: transparent url(../img/1.jpg) no-repeat;
+}
+
+.g2 {
+    height: 140px;
+    width: 300px;
+    display: inline-block;
+    border: none;
+    background: transparent url(../img/2.jpg) no-repeat;
+}
+
+.g1000 {
+    height: 140px;
+    width: 300px;
+    display: inline-block;
+    border: none;
+    background: transparent url(../img/1000.jpg);
+} */
+
+.c {
+    text-align: center;
+}
+
+.balance {
+    position: fixed;
+    right: 2%;
+    top: 2%;
+    display: inline-block;
+    padding: 30px 25px 20px 25px;
+    text-align: left;
+    border-radius: 5px;
+    filter: drop-shadow(0px 5px 6px rgba(0, 0, 0, 0.15));
+    border: 1px solid limegreen;
+    background-color: limegreen;
+    border-radius: 5px;
+}
+
+.balance img {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.balance h2 {
+    color: #fff;
+}
+
+.balance p {
+    color: #fff;
+    font-family: Minecraftia;
+    font-size: 25px;
+    margin: 0;
+}
